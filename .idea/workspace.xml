@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9f567fe-54df-424c-82f6-e29bb0189fdc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2h3r5t5jrridX1xOmLp03MGnHbP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.All_Files_In_Dir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bell_Sound.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CSV_to_LogDataSet_1W.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Check_Version.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ChkLinSeg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class_FileName.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Class_FileName_Static.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Class_Layout.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Class_LogTmpl (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Class_LogTmpl.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Class_LogTmpl_DISCARAD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class_Template.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Concat_Csv_Wells.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Create_New_Project (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Create_New_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Create_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Depth_Check_1W.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Example_TkInter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FilesInDir.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Functions_Misc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Functions_Units.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_ABNER.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_GetFileName (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_GetFileName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_LogView (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_LogView.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GUI_LogView_COPY.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_LogView_Simple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI_Visualization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_FileName (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_FileName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_Load_DataSetObj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_Make_LogPlot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gui_Make_LogPlot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Harmonize_Variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Harmonize_Variables_1W (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.JUNK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_Create_Axes_Multiple_Logs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_FileName (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.JUNK_FileName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_Header_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_OpenFILE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_StaticClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JUNK_TEST.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Junk_Grids_Ticks (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Junk_Grids_Ticks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Junk_Gui_Make_LogPlot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Junk_if_else.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Junk_pathlib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Junk_zscore_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LAS_Read_Example.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LAS_to_LogDataSet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAS_to_LogDataSet_1W (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Last_LogView_Run (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Layout2Display (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Load_PRJ.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Load_Pck_File.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Log_Display.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Log_Display_DISCARAD (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Log_Display_DISCARAD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Make_LogPlot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Make_LogPlot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Persembe_JUNK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Range_Slider_True.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Read_LAS_File (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Read_LAS_File (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Read_LAS_File.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Remove_Nulls_1W.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Remove_OOR_1W.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Run_Workflow_CleanUp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Save_Last_LogView_Run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Say_It (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scrool_Event.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Span_Selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Speech_Recognition.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Template2Display (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Template2Display.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_Mud_Signal.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Units_Check_Convert_1W.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Update_Project_WellInfo_1W.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.View_LAS_File.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.View_Pck_File (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.View_Pck_File.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.uiGetFile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowPlots.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ridva/OneDrive/Documents/YeniDogus/GUIs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.debugger.dataview.coloredbydefault&quot;: &quot;false&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\GUIs" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\CleanUp" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\Config_Files" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\Junk_Yard" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\Utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\Junk_Yard" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\GUIs" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\CleanUp" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus" />
+      <recent name="C:\Users\ridva\OneDrive\Documents\YeniDogus\Utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Run_Workflow_CleanUp">
+    <configuration name="Concat_Csv_Wells" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YeniDogus" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utilities/Concat_Csv_Wells.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Create_New_Project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YeniDogus" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CleanUp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CleanUp/Create_New_Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI_LogView" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YeniDogus" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUIs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUIs/GUI_LogView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run_Workflow_CleanUp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YeniDogus" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CleanUp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CleanUp/Run_Workflow_CleanUp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Update_Project_WellInfo_1W" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YeniDogus" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CleanUp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CleanUp/Update_Project_WellInfo_1W.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Run_Workflow_CleanUp" />
+        <item itemvalue="Python.Update_Project_WellInfo_1W" />
+        <item itemvalue="Python.Create_New_Project" />
+        <item itemvalue="Python.Concat_Csv_Wells" />
+        <item itemvalue="Python.GUI_LogView" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9f567fe-54df-424c-82f6-e29bb0189fdc" name="Changes" comment="" />
+      <created>1716833421488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716833421488</updated>
+      <workItem from="1716833422943" duration="772000" />
+      <workItem from="1716834236232" duration="2040000" />
+      <workItem from="1716838058844" duration="41359000" />
+      <workItem from="1717453282490" duration="8157000" />
+      <workItem from="1717539965170" duration="3429000" />
+      <workItem from="1717617946871" duration="4046000" />
+      <workItem from="1718212897041" duration="8008000" />
+      <workItem from="1718340610479" duration="8040000" />
+      <workItem from="1718419174630" duration="29492000" />
+      <workItem from="1719247385213" duration="6979000" />
+      <workItem from="1719502782306" duration="5188000" />
+      <workItem from="1720978859114" duration="5000" />
+      <workItem from="1720978875822" duration="19397000" />
+      <workItem from="1721101641332" duration="50000" />
+      <workItem from="1721101881896" duration="1295000" />
+      <workItem from="1721103201568" duration="86000" />
+      <workItem from="1721155784506" duration="31431000" />
+      <workItem from="1721335876621" duration="14951000" />
+      <workItem from="1721406674561" duration="10257000" />
+      <workItem from="1721867461207" duration="362000" />
+      <workItem from="1721880919459" duration="1108000" />
+      <workItem from="1722129860756" duration="8000" />
+      <workItem from="1722142703455" duration="17596000" />
+      <workItem from="1722291060623" duration="1073000" />
+      <workItem from="1722292188763" duration="2703000" />
+      <workItem from="1722466878457" duration="2403000" />
+      <workItem from="1722535689200" duration="2394000" />
+      <workItem from="1722544453619" duration="4274000" />
+      <workItem from="1722569498020" duration="134000" />
+      <workItem from="1722569870926" duration="11356000" />
+      <workItem from="1722706753077" duration="139000" />
+      <workItem from="1722733837654" duration="29935000" />
+      <workItem from="1723062532869" duration="17383000" />
+      <workItem from="1723221845271" duration="8214000" />
+      <workItem from="1723338689398" duration="14363000" />
+      <workItem from="1723661619362" duration="2249000" />
+      <workItem from="1723672374832" duration="38198000" />
+      <workItem from="1724102975295" duration="501000" />
+      <workItem from="1724125808577" duration="2272000" />
+      <workItem from="1724263491702" duration="22411000" />
+      <workItem from="1724389038330" duration="47017000" />
+      <workItem from="1724873778318" duration="4767000" />
+      <workItem from="1724888019799" duration="12079000" />
+      <workItem from="1725039737058" duration="46780000" />
+      <workItem from="1725252182985" duration="10182000" />
+      <workItem from="1725416497861" duration="13321000" />
+      <workItem from="1725462745135" duration="29366000" />
+      <workItem from="1725553444721" duration="2697000" />
+      <workItem from="1725590449920" duration="21590000" />
+      <workItem from="1725683365469" duration="10058000" />
+      <workItem from="1725752789807" duration="18835000" />
+      <workItem from="1725852514125" duration="57000" />
+      <workItem from="1725892894282" duration="22508000" />
+      <workItem from="1726006369302" duration="12000" />
+      <workItem from="1726027814232" duration="2760000" />
+      <workItem from="1726066058713" duration="19001000" />
+      <workItem from="1726121027248" duration="490000" />
+      <workItem from="1726196871900" duration="27002000" />
+      <workItem from="1726680565467" duration="19857000" />
+      <workItem from="1726778931072" duration="91000" />
+      <workItem from="1726804087577" duration="2431000" />
+      <workItem from="1726806548316" duration="36713000" />
+      <workItem from="1727284836441" duration="22851000" />
+      <workItem from="1727449183086" duration="32085000" />
+      <workItem from="1727540615145" duration="23257000" />
+      <workItem from="1727794027690" duration="2661000" />
+      <workItem from="1727798008313" duration="1849000" />
+      <workItem from="1727903927372" duration="1970000" />
+      <workItem from="1727922043737" duration="1613000" />
+      <workItem from="1727985631653" duration="1252000" />
+      <workItem from="1728032343762" duration="55617000" />
+      <workItem from="1728445983825" duration="2634000" />
+      <workItem from="1728505168490" duration="10524000" />
+      <workItem from="1728663731961" duration="4331000" />
+      <workItem from="1728672549301" duration="23358000" />
+      <workItem from="1728884770308" duration="1228000" />
+      <workItem from="1729270298999" duration="13730000" />
+      <workItem from="1729517987934" duration="1553000" />
+      <workItem from="1729655577123" duration="1501000" />
+      <workItem from="1729711232888" duration="7552000" />
+      <workItem from="1729740816237" duration="2292000" />
+      <workItem from="1729813926075" duration="2000" />
+      <workItem from="1729833361030" duration="345000" />
+      <workItem from="1729834418452" duration="18373000" />
+      <workItem from="1730084364179" duration="9000" />
+      <workItem from="1730084522630" duration="3092000" />
+      <workItem from="1730136845623" duration="937000" />
+      <workItem from="1730223771111" duration="324000" />
+      <workItem from="1730224312026" duration="2899000" />
+      <workItem from="1730261743494" duration="11725000" />
+      <workItem from="1730436309709" duration="33443000" />
+      <workItem from="1730844063942" duration="4000" />
+      <workItem from="1731001098827" duration="5000" />
+      <workItem from="1731471549352" duration="3295000" />
+      <workItem from="1731527893503" duration="1505000" />
+      <workItem from="1731561964005" duration="5036000" />
+      <workItem from="1731615202517" duration="3025000" />
+      <workItem from="1731685927600" duration="18098000" />
+      <workItem from="1731864163529" duration="342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Examples_Web/Scrool_Event.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Junk_Grids_Ticks.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Junk_Grids_Ticks.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/JUNK_Create_Axes_Multiple_Logs.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/JUNK_Header_test.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Gui_FileName.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Gui_FileName.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Class_FileName_NoStatic.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Classes/Class_Project.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Make_LogPlot.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/Read_LAS_File.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/View_LAS_File.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Junk_Yard/Junk_Gui_Make_LogPlot.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Create_New_Project.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/Functions_Misc.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/View_Pck_File.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Last_LogView_Run.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Last_LogView_Run.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Make_LogPlot.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="995" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Make_LogPlot.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="999" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Make_LogPlot.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="1000" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Visualization/Make_LogPlot.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1002" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GUIs/GUI_LogView.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="1018" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/Load_PRJ.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="1020" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Update_Project_WellInfo_1W.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="1028" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/Concat_Csv_Wells.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="1038" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/Concat_Csv_Wells.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="1039" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Update_Project_WellInfo_1W.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1041" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Update_Project_WellInfo_1W.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="1042" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Update_Project_WellInfo_1W.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1043" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Borehole_Computations.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="1048" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Depth_Check_1W.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1049" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CleanUp/Depth_Check_1W.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="1050" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="nullValue" />
+        <watch expression="vertRes_unit" />
+        <watch expression="df_out" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/YeniDogus$Check_Version.coverage" NAME="Check_Version Coverage Results" MODIFIED="1716838064045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Persembe_JUNK.coverage" NAME="Persembe_JUNK Coverage Results" MODIFIED="1726861381089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$ChkLinSeg.coverage" NAME="ChkLinSeg Coverage Results" MODIFIED="1717545200145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_FileName_Static.coverage" NAME="Class_FileName_Static Coverage Results" MODIFIED="1723094051918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Template2Display__1_.coverage" NAME="Template2Display (1) Coverage Results" MODIFIED="1721430381382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$CSV_to_LogDataSet_1W.coverage" NAME="CSV_to_LogDataSet_1W Coverage Results" MODIFIED="1724562404245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_FileName.coverage" NAME="Class_FileName Coverage Results" MODIFIED="1723092116732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_FileName__1_.coverage" NAME="JUNK_FileName (1) Coverage Results" MODIFIED="1722981759865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_pathlib.coverage" NAME="Junk_pathlib Coverage Results" MODIFIED="1723863855979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$View_Pck_File.coverage" NAME="View_Pck_File Coverage Results" MODIFIED="1730085787427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Harmonize_Variables.coverage" NAME="Harmonize_Variables Coverage Results" MODIFIED="1723147490425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_LogTmpl__1_.coverage" NAME="Class_LogTmpl (1) Coverage Results" MODIFIED="1719913676375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_Layout.coverage" NAME="Class_Layout Coverage Results" MODIFIED="1720994271098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Example_TkInter.coverage" NAME="Gui_Make_LogPlot Coverage Results" MODIFIED="1726773661536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Create_New_Project.coverage" NAME="Create_New_Project Coverage Results" MODIFIED="1731615607752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_OpenFILE.coverage" NAME="JUNK_OpenFILE Coverage Results" MODIFIED="1722971201883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Span_Selector.coverage" NAME="Span_Selector Coverage Results" MODIFIED="1716838835692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Last_LogView_Run__1_.coverage" NAME="Last_LogView_Run (1) Coverage Results" MODIFIED="1728839239701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_LogView.coverage" NAME="GUI_LogView Coverage Results" MODIFIED="1731566793793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Remove_Nulls_1W.coverage" NAME="Remove_Nulls_1W Coverage Results" MODIFIED="1723781581999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Say_It__1_.coverage" NAME="Say_It (1) Coverage Results" MODIFIED="1722962967872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Create_New_Project__1_.coverage" NAME="Create_New_Project (1) Coverage Results" MODIFIED="1724290540740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_TEST.coverage" NAME="JUNK_TEST Coverage Results" MODIFIED="1717162316509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Read_LAS_File__1_.coverage" NAME="Read_LAS_File (1) Coverage Results" MODIFIED="1722275039877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test Scripts" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Make_LogPlot.coverage" NAME="Make_LogPlot Coverage Results" MODIFIED="1728846073829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Save_Last_LogView_Run.coverage" NAME="Save_Last_LogView_Run Coverage Results" MODIFIED="1728766028832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$LAS_to_LogDataSet_1W__1_.coverage" NAME="LAS_to_LogDataSet_1W (1) Coverage Results" MODIFIED="1723685157932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_LogView_Simple.coverage" NAME="GUI_LogView_Simple Coverage Results" MODIFIED="1727542247192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$All_Files_In_Dir.coverage" NAME="All_Files_In_Dir Coverage Results" MODIFIED="1723233597500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_Template.coverage" NAME="Class_LogTmpl Coverage Results" MODIFIED="1718342534777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Speech_Recognition.coverage" NAME="Speech_Recognition Coverage Results" MODIFIED="1723680506427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$View_LAS_File.coverage" NAME="View_LAS_File Coverage Results" MODIFIED="1730086445645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Layout2Display__1_.coverage" NAME="Layout2Display (1) Coverage Results" MODIFIED="1721056684571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Load_Pck_File.coverage" NAME="Load_Pck_File Coverage Results" MODIFIED="1724337927833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Functions_Misc.coverage" NAME="Functions_Misc Coverage Results" MODIFIED="1727588410791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_ABNER.coverage" NAME="GUI_ABNER Coverage Results" MODIFIED="1730770893365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Test_Mud_Signal.coverage" NAME="Test_Mud_Signal Coverage Results" MODIFIED="1725463706226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Functions_Units.coverage" NAME="Functions_Units Coverage Results" MODIFIED="1725387613493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Log_Display.coverage" NAME="Log_Display Coverage Results" MODIFIED="1721056754491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Gui_Make_LogPlot.coverage" NAME="Gui_Make_LogPlot Coverage Results" MODIFIED="1729292771629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_Gui_Make_LogPlot__1_.coverage" NAME="Junk_Gui_Make_LogPlot (1) Coverage Results" MODIFIED="1729292809486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Read_LAS_File.coverage" NAME="Read_LAS_File Coverage Results" MODIFIED="1725479137083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_Create_Axes_Multiple_Logs.coverage" NAME="JUNK_Create_Axes_Multiple_Logs Coverage Results" MODIFIED="1721446562261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test Scripts" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Log_Display_DISCARAD__1_.coverage" NAME="Log_Display_DISCARAD (1) Coverage Results" MODIFIED="1721179354857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_LogTmpl_DISCARAD.coverage" NAME="Class_LogTmpl_DISCARAD Coverage Results" MODIFIED="1721446547150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test Scripts" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_Header_test.coverage" NAME="JUNK_Header_test Coverage Results" MODIFIED="1721351495138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test Scripts" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Range_Slider_True.coverage" NAME="Range_Slider_True Coverage Results" MODIFIED="1721446510203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_GetFileName__1_.coverage" NAME="GUI_GetFileName (1) Coverage Results" MODIFIED="1722972938554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$View_Pck_File__1_.coverage" NAME="View_Pck_File (1) Coverage Results" MODIFIED="1724560907558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Harmonize_Variables_1W__1_.coverage" NAME="Harmonize_Variables_1W (1) Coverage Results" MODIFIED="1723829326953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Make_LogPlot__1_.coverage" NAME="Make_LogPlot (1) Coverage Results" MODIFIED="1722544855097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Depth_Check_1W.coverage" NAME="Depth_Check_1W Coverage Results" MODIFIED="1723768221026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_GetFileName.coverage" NAME="GUI_GetFileName Coverage Results" MODIFIED="1722971976075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_LogView_COPY.coverage" NAME="GUI_LogView_COPY Coverage Results" MODIFIED="1730653599212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$LAS_to_LogDataSet.coverage" NAME="LAS_to_LogDataSet Coverage Results" MODIFIED="1723063164524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Units_Check_Convert_1W.coverage" NAME="Units_Check_Convert_1W Coverage Results" MODIFIED="1723685168555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_LogView__1_.coverage" NAME="GUI_LogView (1) Coverage Results" MODIFIED="1730653499579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_Grids_Ticks.coverage" NAME="Junk_Grids_Ticks Coverage Results" MODIFIED="1721235974485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Remove_OOR_1W.coverage" NAME="Remove_OOR_1W Coverage Results" MODIFIED="1727029505980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_zscore_test.coverage" NAME="Junk_zscore_test Coverage Results" MODIFIED="1728057029976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Scrool_Event.coverage" NAME="Scrool_Event Coverage Results" MODIFIED="1721446540951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Template2Display.coverage" NAME="Template2Display Coverage Results" MODIFIED="1722292073126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$LAS_Read_Example.coverage" NAME="LAS_Read_Example Coverage Results" MODIFIED="1718123818818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Run_Workflow_CleanUp.coverage" NAME="Run_Workflow_CleanUp Coverage Results" MODIFIED="1731735096063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK.coverage" NAME="JUNK Coverage Results" MODIFIED="1718471595235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Class_Project.coverage" NAME="Class_Project Coverage Results" MODIFIED="1724277647658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_Grids_Ticks__1_.coverage" NAME="Junk_Grids_Ticks (1) Coverage Results" MODIFIED="1721335890293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test Scripts" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Test.coverage" NAME="Test Coverage Results" MODIFIED="1716838790335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples_Web" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Log_Display_DISCARAD.coverage" NAME="Log_Display_DISCARAD Coverage Results" MODIFIED="1721446658387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Junk_if_else.coverage" NAME="Junk_if_else Coverage Results" MODIFIED="1724623313619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Load_PRJ.coverage" NAME="Load_PRJ Coverage Results" MODIFIED="1730330731276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$GUI_Visualization.coverage" NAME="GUI_Visualization Coverage Results" MODIFIED="1731527904104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_FileName.coverage" NAME="JUNK_FileName Coverage Results" MODIFIED="1722905236480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Gui_Make_LogPlot__1_.coverage" NAME="Gui_Make_LogPlot (1) Coverage Results" MODIFIED="1726861612024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUIs" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Concat_Csv_Wells.coverage" NAME="Concat_Csv_Wells Coverage Results" MODIFIED="1731566930470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Update_Project_WellInfo_1W.coverage" NAME="Update_Project_WellInfo_1W Coverage Results" MODIFIED="1731686099711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Read_LAS_File__2_.coverage" NAME="Read_LAS_File (2) Coverage Results" MODIFIED="1722291802779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Gui_FileName__1_.coverage" NAME="Gui_FileName (1) Coverage Results" MODIFIED="1722961816721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Create_Project.coverage" NAME="Create_Project Coverage Results" MODIFIED="1724282763824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CleanUp" />
+    <SUITE FILE_PATH="coverage/YeniDogus$Bell_Sound.coverage" NAME="Bell_Sound Coverage Results" MODIFIED="1722962905751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$JUNK_StaticClass.coverage" NAME="JUNK_StaticClass Coverage Results" MODIFIED="1723093191753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk_Yard" />
+    <SUITE FILE_PATH="coverage/YeniDogus$FilesInDir.coverage" NAME="FilesInDir Coverage Results" MODIFIED="1728847959988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
+    <SUITE FILE_PATH="coverage/YeniDogus$uiGetFile.coverage" NAME="Gui_FileName Coverage Results" MODIFIED="1722564658103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+  </component>
+</project>
