@@ -11,20 +11,22 @@ ax.plot(t, s)
 
 def on_move(event):
     if event.inaxes:
-        print(f'data coords {event.xdata} {event.ydata},',
-              f'pixel coords {event.x} {event.y}')
+        print(
+            f"data coords {event.xdata} {event.ydata},",
+            f"pixel coords {event.x} {event.y}",
+        )
 
 
 def on_click(event):
     if event.button is MouseButton.LEFT:
-        print('disconnecting callback')
+        print("disconnecting callback")
         plt.disconnect(binding_id)
 
     if event.button is MouseButton.RIGHT:
-        print('I am going to zoom')
+        print("I am going to zoom")
 
 
-binding_id = plt.connect('motion_notify_event', on_move)
-plt.connect('button_press_event', on_click)
+binding_id = plt.connect("motion_notify_event", on_move)
+plt.connect("button_press_event", on_click)
 
 plt.show()
