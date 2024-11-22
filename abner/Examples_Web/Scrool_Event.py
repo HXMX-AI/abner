@@ -12,15 +12,14 @@ class IndexTracker:
 
     def on_scroll(self, event):
         print(event.button, event.step)
-        increment = 1 if event.button == 'up' else -1
+        increment = 1 if event.button == "up" else -1
         max_index = self.X.shape[-1] - 1
         self.index = np.clip(self.index + increment, 0, max_index)
         self.update()
 
     def update(self):
         self.im.set_data(self.X[:, :, self.index])
-        self.ax.set_title(
-            f'Use scroll wheel to navigate\nindex {self.index}')
+        self.ax.set_title(f"Use scroll wheel to navigate\nindex {self.index}")
         self.im.axes.figure.canvas.draw()
 
 
@@ -32,5 +31,5 @@ fig, ax = plt.subplots()
 # lifetime of the figure by assigning it to a variable
 tracker = IndexTracker(ax, X)
 
-fig.canvas.mpl_connect('scroll_event', tracker.on_scroll)
+fig.canvas.mpl_connect("scroll_event", tracker.on_scroll)
 plt.show()

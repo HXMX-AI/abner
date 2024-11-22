@@ -16,43 +16,46 @@ def takeCommand():
     # we will use the Microphone module
     # for listening the command
     with sr.Microphone() as source:
-        print('Listening')
+        print("Listening")
 
         # seconds of non-speaking audio before
         # a phrase is considered complete
         r.pause_threshold = 0.7
-        audio = r.listen(source)
+        # Add energy threshold adjustment
+        r.energy_threshold = 4000
+        # Add dynamic energy adjustment
+        r.dynamic_energy_threshold = True
 
-        # Now we will be using the try and catch
-        # method so that if sound is recognized
-        # it is good else we will have exception
-        # handling
         try:
+            audio = r.listen(source, timeout=5, phrase_time_limit=5)
             print("Recognizing")
 
-            # for Listening the command in indian
-            # english we can also use 'hi-In'
-            # for hindi recognizing
-            Query = r.recognize_google(audio, language='en-in')
-            print("the command is printed=", Query)
+            # Use try-except specifically for speech recognition
+            try:
+                Query = r.recognize_google(audio)  # type: ignore
+                print("the command is printed=", Query)
+                return Query
+            except sr.UnknownValueError:
+                print("Could not understand audio")
+                return "None"
+            except sr.RequestError as e:
+                print(f"Could not request results; {e}")
+                return "None"
 
-        except Exception as e:
-            print(e)
-            print("Say that again sir")
+        except sr.WaitTimeoutError:
+            print("Listening timed out")
             return "None"
-
-        return Query
 
 
 def speak(audio):
     engine = pyttsx3.init()
     # getter method(gets the current value
     # of engine property)
-    voices = engine.getProperty('voices')
+    voices = engine.getProperty("voices")
 
     # setter method .[0]=male voice and
     # [1]=female voice in set Property.
-    engine.setProperty('voice', voices[0].id)
+    engine.setProperty("voice", voices[0].id)
 
     # Method for the speaking of the assistant
     engine.say(audio)
@@ -69,10 +72,15 @@ def tellDay():
 
     # this line tells us about the number
     # that will help us in telling the day
-    Day_dict = {1: 'Monday', 2: 'Tuesday',
-                3: 'Wednesday', 4: 'Thursday',
-                5: 'Friday', 6: 'Saturday',
-                7: 'Sunday'}
+    Day_dict = {
+        1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7: "Sunday",
+    }
 
     if day in Day_dict.keys():
         day_of_the_week = Day_dict[day]
@@ -90,7 +98,7 @@ def tellTime():
     print(time)
     hour = time[11:13]
     min = time[14:16]
-    speak(self, "The time is sir" + hour + "Hours and" + min + "Minutes")
+    speak("The time is " + hour + " Hours and " + min + " Minutes")
 
 
 def Hello():
@@ -109,7 +117,7 @@ def Take_query():
     # our queries continuously until and unless
     # we do not say bye to exit or terminate
     # the program
-    while (True):
+    while True:
 
         # taking the query and making it into
         # lower case so that most of the times
@@ -125,9 +133,16 @@ def Take_query():
             webbrowser.open("www.codemagnet.in")
             continue
 
+        elif "search google for" in query:
+            search_term = query.replace("search google for", "").strip()
+            speak(f"Searching Google for {search_term}")
+            search_url = f"https://www.google.com/search?q={search_term}"
+            webbrowser.open(search_url)
+            continue
+
         elif "open google" in query:
-            speak("Opening Google ")
-            webbrowser.open("www.google.com")
+            speak("Opening Google")
+            webbrowser.open("https://www.google.com")
             continue
 
         elif "which day it is" in query:
@@ -160,13 +175,14 @@ def Take_query():
         elif "tell me your name" in query:
             speak("I am Jarvis. Your desktop Assistant")
 
-        elif "Create New Project"   in query:
-            speak('What is the name of the new project?')
+        elif "Create New Project" in query:
+            speak("What is the name of the new project?")
 
-        elif "Do you know Alan Lindsey"   in query:
-            speak('That ..., yes, the CEO of HXMX, I know him')
+        elif "Do you know Alan Lindsey" in query:
+            speak("That ..., yes, the CEO of HXMX, I know him")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # main method for executing
     # the functions
     Take_query()

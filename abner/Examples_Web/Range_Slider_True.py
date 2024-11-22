@@ -21,16 +21,16 @@ fig, axs = plt.subplots(1, 2, figsize=(10, 5))
 fig.subplots_adjust(bottom=0.25)
 
 im = axs[0].imshow(img)
-axs[1].hist(img.flatten(), bins='auto')
-axs[1].set_title('Histogram of pixel intensities')
+axs[1].hist(img.flatten(), bins="auto")
+axs[1].set_title("Histogram of pixel intensities")
 
 # Create the RangeSlider
-slider_ax = fig.add_axes([0.20, 0.1, 0.60, 0.03])
+slider_ax = fig.add_axes((0.20, 0.10, 0.60, 0.03))
 slider = RangeSlider(slider_ax, "Threshold", img.min(), img.max())
 
 # Create the Vertical lines on the histogram
-lower_limit_line = axs[1].axvline(slider.val[0], color='k')
-upper_limit_line = axs[1].axvline(slider.val[1], color='k')
+lower_limit_line = axs[1].axvline(slider.val[0], color="k")
+upper_limit_line = axs[1].axvline(slider.val[1], color="k")
 
 
 def update(val):

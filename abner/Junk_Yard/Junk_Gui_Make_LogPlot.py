@@ -1,16 +1,15 @@
-import  tkinter                 as      tk
-from    tkinter                 import  Listbox, Scrollbar, filedialog
-from    GUIs.GUI_GetFileName    import  GUI_GetFileName
-import  pickle
+import tkinter as tk
+from tkinter import filedialog
+
+from abner.GUIs.GUI_GetFileName import GUI_GetFileName
 
 
-
-#=======================================================================================================================
 def on_select1(event):
     # Get the selected item(s) from the listbox
     selected_items = listbox1.curselection()
     for index in selected_items:
         print(f"Selected item: {listbox1.get(index)}")
+
 
 def on_select2(event):
     # Get the selected item(s) from the listbox
@@ -18,20 +17,22 @@ def on_select2(event):
     for index in selected_items:
         print(f"Selected item: {listbox2.get(index)}")
 
+
 def Select_Project():
-    print('Selected project')
+    print("Selected project")
     path_prj = filedialog.askdirectory(title="Select a Project")
     project_selected.set(path_prj)
 
 
 def Select_Well():
-    print('Now going to select the well:')
-    well_selected.set(GUI_GetFileName('pck') )
+    print("Now going to select the well:")
+    well_selected.set(GUI_GetFileName("pck"))
 
 
 def Select_Template():
-    print('Now going to select the well:')
-    template_selected.set(GUI_GetFileName('xlsx') )
+    print("Now going to select the well:")
+    template_selected.set(GUI_GetFileName("xlsx"))
+
 
 def Display_Selected_Well():
     pass
@@ -57,12 +58,11 @@ def Display_Selected_Well():
     #
     # LayoutObj = Make_LogPlot(inputs)
 
+
 # CREATE MAIN WINDOW ===================================================================================================
 root = tk.Tk()
 root.title("LOG PLOT (.pck files ONLY)")
 root.geometry("800x450")
-
-
 
 
 # MENU BAR =============================================================================================================
@@ -70,10 +70,10 @@ menubar = tk.Menu(root)
 
 # SELECT menu
 file_menu = tk.Menu(menubar, tearoff=0)
-file_menu.add_command(label="Project",  command = Select_Project)
-file_menu.add_command(label="Well",     command = Select_Well)
-file_menu.add_command(label="Template", command = Select_Template)
-menubar.add_cascade(label="Select", menu=file_menu)     # Add the File menu to the menu bar
+file_menu.add_command(label="Project", command=Select_Project)
+file_menu.add_command(label="Well", command=Select_Well)
+file_menu.add_command(label="Template", command=Select_Template)
+menubar.add_cascade(label="Select", menu=file_menu)  # Add the File menu to the menu bar
 
 # EDIT menu
 edit_menu = tk.Menu(menubar, tearoff=0)
@@ -83,13 +83,18 @@ menubar.add_cascade(label="Edit", menu=edit_menu)
 # SAVE menu
 save_menu = tk.Menu(menubar, tearoff=0)
 save_menu.add_command(label="Save Template", command=lambda: print("Save_Template"))
-save_menu.add_command(label="Save Log Display", command=lambda: print("Save_log_display"))
+save_menu.add_command(
+    label="Save Log Display", command=lambda: print("Save_log_display")
+)
 menubar.add_cascade(label="Save", menu=save_menu)
 
 # RUN menu
 run_menu = tk.Menu(menubar, tearoff=0)
-run_menu.add_command(label="Display Selected Well", command = Display_Selected_Well())
-run_menu.add_command(label="Display ALL wells in project", command=lambda: print("Display_ALL_well_project"))
+run_menu.add_command(label="Display Selected Well", command=Display_Selected_Well)
+run_menu.add_command(
+    label="Display ALL wells in project",
+    command=lambda: print("Display_ALL_well_project"),
+)
 menubar.add_cascade(label="RUN", menu=run_menu)
 
 # EXIT menu
@@ -103,54 +108,54 @@ root.config(menu=menubar)
 
 # WIDGETS======================================================================================================================
 # LABELS ............................................................
-label_text = ['PROJECT', 'Well', 'Template']
-label_idx  = [None] * len(label_text)
+label_text = ["PROJECT", "Well", "Template"]
+label_idx = []
 for n in range(len(label_text)):
-    temp         = tk.Label(root, text = label_text[n])
-    label_idx[n] = temp
-    temp.grid(row = n+1, column = 0, sticky = tk.W, padx=5)
+    temp = tk.Label(root, text=label_text[n])
+    label_idx.append(temp)
+    temp.grid(row=n + 1, column=0, sticky=tk.W, padx=5)
 
 
 # ENTRIES ...........................................................
-entry_idx = [None, None, None]
-for n in [0,2]:
-    entry_idx[n] = tk.Entry(root, width = 110)
-    entry_idx[n].grid(row = n+1, column = 1, sticky = tk.NSEW, pady=5)
+entry_idx = []
+for n in range(len(label_text)):
+    entry_idx.append(tk.Entry(root, width=110))
+    entry_idx[n].grid(row=n + 1, column=1, sticky=tk.NSEW, pady=5)
 
 
-project_selected   = tk.StringVar()
-entry_project_selected = tk.Entry(root, width = 110, textvariable = project_selected)
-entry_project_selected.grid(row = 1, column = 1, sticky = tk.NSEW, pady=5)
-project_selected.set('ZART')
+project_selected = tk.StringVar()
+entry_project_selected = tk.Entry(root, width=110, textvariable=project_selected)
+entry_project_selected.grid(row=1, column=1, sticky=tk.NSEW, pady=5)
+project_selected.set("ZART")
 
-well_selected   = tk.StringVar()
-entry_well_selected = tk.Entry(root, width = 110, textvariable = well_selected)
-entry_well_selected.grid(row = 2, column = 1, sticky = tk.NSEW, pady=5)
-
-
-template_selected   = tk.StringVar()
-entry_template_selected = tk.Entry(root, width = 110, textvariable = template_selected)
-entry_template_selected.grid(row = 3, column = 1, sticky = tk.NSEW, pady=5)
-template_selected.set('Who kinows')
+well_selected = tk.StringVar()
+entry_well_selected = tk.Entry(root, width=110, textvariable=well_selected)
+entry_well_selected.grid(row=2, column=1, sticky=tk.NSEW, pady=5)
 
 
-
-
+template_selected = tk.StringVar()
+entry_template_selected = tk.Entry(root, width=110, textvariable=template_selected)
+entry_template_selected.grid(row=3, column=1, sticky=tk.NSEW, pady=5)
+template_selected.set("Who kinows")
 
 
 # FRAME 2 ==============================================================================================================
-frame2     = tk.Frame(root, width = 300, height= 300, bg= 'lightgray', relief=tk.RAISED)
-frame2.grid(row=5, column = 1, columnspan = 1, padx = 10, pady = 30, sticky = tk.E)
+frame2 = tk.Frame(root, width=300, height=300, bg="lightgray", relief=tk.RAISED)
+frame2.grid(row=5, column=1, columnspan=1, padx=10, pady=30, sticky=tk.E)
 
-label_temp = tk.Label(frame2, text = 'TEMPLATES in Project')
-label_temp.pack(side= tk.TOP, fill= tk.BOTH)
+label_temp = tk.Label(frame2, text="TEMPLATES in Project")
+label_temp.pack(side=tk.TOP, fill=tk.BOTH)
 
 #  Create a scrollbar
 scrollbar2 = tk.Scrollbar(frame2, orient=tk.VERTICAL, width=20)
 scrollbar2.pack(side=tk.RIGHT, fill=tk.Y)
 
 # Create a listbox and attach the scrollbar
-listbox2= tk.Listbox(frame2, yscrollcommand=scrollbar2.set, width = 50, height = 18)
+# Create a listbox and attach the scrollbar
+listbox1 = tk.Listbox(frame2, yscrollcommand=scrollbar2.set, width=50, height=18)
+listbox1.pack(side=tk.LEFT, fill=tk.BOTH)
+
+listbox2 = tk.Listbox(frame2, yscrollcommand=scrollbar2.set, width=50, height=18)
 listbox2.pack(side=tk.LEFT, fill=tk.BOTH)
 
 # Configure the scrollbar
@@ -160,16 +165,8 @@ for i in range(100, 125):
     listbox2.insert("end", f"Item {i}")
 
 
-
-
 listbox1.bind("<<ListboxSelect>>", on_select1)
 listbox2.bind("<<ListboxSelect>>", on_select2)
-
-
-
-
-
-
 
 
 root.mainloop()
