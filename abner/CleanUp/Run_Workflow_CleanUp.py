@@ -19,17 +19,17 @@ from abner.Utilities.LogDso_to_csv import LogDso_to_csv_1W
 
 workflow_dict = {
     "Input_Files_to_LogDso": Input_Files_to_LogDso,
-    "Harmonize_Variables_1W": Harmonize_Variables_1W,
-    "Harmonize_Units_1W": Harmonize_Units_1W,
-    "Depth_Check_1W": Depth_Check_1W,
-    "Borehole_Shape_1W": Borehole_Shape_1W,
-    "Remove_Nulls_1W": Remove_Nulls_1W,
-    "Remove_OOR_1W": Remove_OOR_1W,
-    "Remove_LinSeg_1W": Remove_LinSeg_1W,
-    "Trim_Top_Bot_1W": Trim_Top_Bot_1W,
-    "Casing_Check_1W": Casing_Check_1W,
-    "WellInfo_Update_1W": WellInfo_Update_1W,
-    "LogDso_to_csv_1W": LogDso_to_csv_1W,
+    "Harmonize_Variables": Harmonize_Variables_1W,
+    "Harmonize_Units": Harmonize_Units_1W,
+    "Depth_Check": Depth_Check_1W,
+    "Borehole_Shape": Borehole_Shape_1W,
+    "Remove_Nulls": Remove_Nulls_1W,
+    "Remove_OOR": Remove_OOR_1W,
+    "Remove_LinSeg": Remove_LinSeg_1W,
+    "Trim_Top_Bot": Trim_Top_Bot_1W,
+    "Casing_Check": Casing_Check_1W,
+    "WellInfo_Update": WellInfo_Update_1W,
+    "LogDso_to_csv": LogDso_to_csv_1W,
 }
 
 
