@@ -1,11 +1,12 @@
-import  tkinter                                 as              tk
-from    tkinter                                 import          Menu, Toplevel
-from    pathlib                                 import          Path
-import  pandas                                  as              pd
-from    abner.GUIs.GUI_Create_New_Project             import          GUI_Create_New_Project
-from    abner.GUIs.GUI_Project_Summary                import          GUI_Project_Summary
-from    PIL                                     import          Image, ImageTk
-from    abner.config                        import          abner_dir
+import tkinter as tk
+from tkinter import Menu, Toplevel
+from pathlib import Path
+import pandas as pd
+from abner.GUIs.GUI_Create_New_Project import GUI_Create_New_Project
+from abner.GUIs.GUI_Project_Summary import GUI_Project_Summary
+from PIL import Image, ImageTk
+from abner.config import abner_dir
+
 
 def GUI_Project_Tools():
 
@@ -17,7 +18,7 @@ def GUI_Project_Tools():
         GUI_Project_Summary()
         pass
 
-    root_new = tk.Toplevel()     #  Tk()
+    root_new = tk.Toplevel()  #  Tk()
     root_new.title("PROJECT TOOLS")
     root_new.geometry("350x200")
 
@@ -25,17 +26,10 @@ def GUI_Project_Tools():
 
     # Load the icon image
     project_tools_path = abner_dir / "GUIs" / "Project_Tools.png"
-    icon_project     = tk.PhotoImage(file= str(project_tools_path))
-    original_image   = Image.open(str(project_tools_path))
-    resized_image_3  = original_image.resize((125,125))
-    tk_image_3       = ImageTk.PhotoImage(resized_image_3)
-
-
-
-
-
-
-
+    icon_project = tk.PhotoImage(file=str(project_tools_path))
+    original_image = Image.open(str(project_tools_path))
+    resized_image_3 = original_image.resize((125, 125))
+    tk_image_3 = ImageTk.PhotoImage(resized_image_3)
 
     # # Create a menu bar
     # menu_bar = Menu(root_new)
@@ -49,34 +43,42 @@ def GUI_Project_Tools():
     # # Display the menu bar
     # root_new.config(menu=menu_bar)
 
-
-
-
     # # Create buttons and place them on the window
-    image_label = tk.Label(root_new, image=tk_image_3, anchor = 'e', width=120, height=120)
-    button1     = tk.Button(root_new, text="Create New Project",       anchor = 'w', width = 20, height = 2, font=button_font, relief = tk.RAISED, command = Create_New_Project)
-    button2     = tk.Button(root_new, text="Project Summary",  anchor = 'w', width = 20, height = 2, font=button_font, relief = tk.RAISED, command = Project_Summary)
-
-
-
-
-
+    image_label = tk.Label(
+        root_new, image=tk_image_3, anchor="e", width=120, height=120
+    )
+    button1 = tk.Button(
+        root_new,
+        text="Create New Project",
+        anchor="w",
+        width=20,
+        height=2,
+        font=button_font,
+        relief=tk.RAISED,
+        command=Create_New_Project,
+    )
+    button2 = tk.Button(
+        root_new,
+        text="Project Summary",
+        anchor="w",
+        width=20,
+        height=2,
+        font=button_font,
+        relief=tk.RAISED,
+        command=Project_Summary,
+    )
 
     # GRIDDING
-    image_label.grid(row = 0, column = 0,  rowspan = 3, padx = 10, pady = 10)
-    button1.grid(row = 0, column = 1, padx = 10, pady = 10)
-    button2.grid(row = 1, column = 1, padx = 10, pady = 10)
-
-
-
+    image_label.grid(row=0, column=0, rowspan=3, padx=10, pady=10)
+    button1.grid(row=0, column=1, padx=10, pady=10)
+    button2.grid(row=1, column=1, padx=10, pady=10)
 
     # Start the main event loop
     root_new.mainloop()
 
 
-
 # ====================================================
-if __name__ == '__main__':
+if __name__ == "__main__":
     root = tk.Tk()
     root.title("TEST")
     root.geometry("10x20")

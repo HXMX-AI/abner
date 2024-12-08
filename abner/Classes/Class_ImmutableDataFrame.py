@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class ImmutableDataFrame(pd.DataFrame):
     def __setitem__(self, key, value):
         if key in self.columns:
