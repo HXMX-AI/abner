@@ -17,6 +17,21 @@ from abner.CleanUp.Casing_Check_1W import Casing_Check_1W
 from abner.CleanUp.WellInfo_Update_1W import WellInfo_Update_1W
 from abner.Utilities.LogDso_to_csv import LogDso_to_csv_1W
 
+workflow_dict = {
+    "Input_Files_to_LogDso": Input_Files_to_LogDso,
+    "Harmonize_Variables_1W": Harmonize_Variables_1W,
+    "Harmonize_Units_1W": Harmonize_Units_1W,
+    "Depth_Check_1W": Depth_Check_1W,
+    "Borehole_Shape_1W": Borehole_Shape_1W,
+    "Remove_Nulls_1W": Remove_Nulls_1W,
+    "Remove_OOR_1W": Remove_OOR_1W,
+    "Remove_LinSeg_1W": Remove_LinSeg_1W,
+    "Trim_Top_Bot_1W": Trim_Top_Bot_1W,
+    "Casing_Check_1W": Casing_Check_1W,
+    "WellInfo_Update_1W": WellInfo_Update_1W,
+    "LogDso_to_csv_1W": LogDso_to_csv_1W,
+}
+
 
 # ====================================================================================
 def Run_Workflow_CleanUp(dir_prj):
@@ -42,18 +57,20 @@ def Run_Workflow_CleanUp(dir_prj):
         spacer = "." * (80 - len(processName))
 
         if run_it:
+            workflow = workflow_dict.get(str(processName))
+            if not workflow:
+                raise ValueError(f"Workflow {processName} not found")
+
             print(f"\n{processName}{spacer}")
             if processName == "Input_Files_to_LogDso":
-                PRJ = eval(df_scheduler.loc[idx, "processName"] + "(PRJ, pars_input)")
+                PRJ = workflow(PRJ, pars_input)
             else:
                 path_pck_files = PRJ.df_wellInfo["path_pck"]
                 for p in path_pck_files:
                     p_path = PRJ.dir_prj / p
                     dso = Read_Pickle_File(p_path)
-                    PRJ, dso = eval(
-                        df_scheduler.loc[idx, "processName"]
-                        + "_1W(PRJ, p_path, pars_input, dso)"
-                    )
+                    PRJ, dso = workflow(PRJ, p_path, pars_input, dso)
+
                     if liveData:
                         allDso[p_path.stem] = dso
 
