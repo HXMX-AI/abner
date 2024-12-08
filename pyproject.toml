@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Connor McLean <c.mclean165@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "abner" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
@@ -23,6 +26,9 @@ openpyxl = "^3.1.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
+
+[tool.poetry.scripts]
+abner = "abner.cli:main"
 
 [build-system]
 requires = ["poetry-core"]
