@@ -5,7 +5,7 @@ description = ""
 authors = ["Connor McLean <c.mclean165@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "abner" }
+    { include = "dist/abner" }
 ]
 
 [tool.poetry.dependencies]
@@ -22,7 +22,7 @@ google-api-python-client = "^2.154.0"
 tk = "^0.1.0"
 pillow = "^11.0.0"
 openpyxl = "^3.1.5"
-
+pyarmor = "^9.0.6"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
@@ -33,3 +33,7 @@ abner = "abner.cli:main"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pyarmor]
+includes = ["abner/*.py", "abner/**/*.py"]
+recursive = true
